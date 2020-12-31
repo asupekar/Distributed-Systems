@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 23 12:31:24 2019
 
-@author: Nishigandha Mhatre
+"""
+@author: Aishwarya Supekar 
 Seattle University
 """
+
 import socket
 from array import array
 import selectors
@@ -13,7 +12,7 @@ import math
 from collections import defaultdict
 from bellman_ford import bellman_ford
 
-server_address = ('cs2.seattleu.edu', 50403)  # Address of the Provider
+server_address = ('cs2.seattleu.edu', 50303)  # Address of the Provider
 liveForexData = {}                            # Ditionary to store the live feed
 BUZ_FEED = 4096                               # Buffer size
 SUBSCRIPTION_TIME = 10 * 60                   # Subscription time in seconds
