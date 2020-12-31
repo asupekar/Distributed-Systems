@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 23 12:31:24 2019
 
-@author: Nishigandha Mhatre
+"""
+@author: Aishwarya Supekar
 Seattle University
 """
 from fxp_bytes_subscriber import fxp_bytes_subscriber
